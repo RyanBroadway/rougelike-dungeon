@@ -25,25 +25,25 @@ public class RoomSpawner : MonoBehaviour {
             {
                 //need bottom door
                 rand = Random.Range(0, templates.bottomRooms.Length);
-                Instantiate(templates.bottomRooms[rand], transform.position, templates.bottomRooms[rand].rotation);
+                Instantiate(templates.bottomRooms[rand], transform.position,Quaternion.identity);
             }
             else if (openingDirection == 2)
             {
                 //need top door
                 rand = Random.Range(0, templates.topRooms.Length);
-                Instantiate(templates.topRooms[rand], transform.position, templates.topRooms[rand].rotation);
+                Instantiate(templates.topRooms[rand], transform.position,Quaternion.identity);
             }
             else if (openingDirection == 3)
             {
                 //need left door
                 rand = Random.Range(0, templates.leftRooms.Length);
-                Instantiate(templates.leftRooms[rand], transform.position, templates.leftRooms[rand].rotation);
+                Instantiate(templates.leftRooms[rand], transform.position,Quaternion.identity);
             }
             else if (openingDirection == 4)
             {
                 //need right door
                 rand = Random.Range(0, templates.rightRooms.Length);
-                Instantiate(templates.rightRooms[rand], transform.position, templates.rightRooms[rand].rotation);
+                Instantiate(templates.rightRooms[rand], transform.position,Quaternion.identity);
             }
             spawned = true;
         }
