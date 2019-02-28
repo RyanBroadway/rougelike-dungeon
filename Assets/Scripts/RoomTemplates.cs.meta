@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 6f96d823d3abbe648b54f8d5bb3f9e75
-timeCreated: 1521132556
-licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - closedRoom: {fileID: 1387511486118026, guid: 71addd1db0904154d960002486bf6a2b,
+      type: 2}
+  - boss: {fileID: 1548142068985646, guid: 09e14c596e782a742829f1166838514d, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
