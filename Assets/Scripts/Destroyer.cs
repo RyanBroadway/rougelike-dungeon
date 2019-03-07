@@ -9,7 +9,12 @@ public class Destroyer : MonoBehaviour {
         {}
         else
         {
-            Destroy(other.gameObject);
+            if (other.gameObject.tag == "Bullet")
+            { }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
 	}
     
